@@ -510,256 +510,11 @@ fieldset {
     margin: auto;
 }
 
-
-/*
-* ----------------------------------------------------------------------------------------
-* 07.SERVICE CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-.service-icon {
-    display: inline-block;
-    font-size: 32px;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    line-height: 70px;
-    color: #fff;
-    margin: 15px 0;
-    overflow: hidden;
-    border: 5px solid rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    box-shadow: 0 0 3px #41b548;
-    transition: all 0.3s;
-    background: #41b548;
-}
-
-.single-service h2 {
-    font-size: 16px;
-    text-transform: uppercase;
-    -webkit-transition: .3s;
-    transition: .3s;
-    color: white;
-    letter-spacing: 2px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.single-service p {
-    color: white;
-    text-align: center;
-    padding: 15px 8px 0 8px;
-    font-size: 14px;
-}
-
-/*
-* ----------------------------------------------------------------------------------------
-* 08.WORK CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-#work .lrs-list-protfolio {
-    text-align: center;
-}
-
-#work .lrs-list-protfolio .fil-cat {
-    margin: 0 15px;
-    padding: 0;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-#work .lrs-list-protfolio .fil-cat.active {
-    border-bottom: 2px solid #41b548;
-    color: #41b548;
-}
-
-#work .lrs-projects {
-    margin-top: 30px;
-    position: relative;
-    -webkit-column-count: 3;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 3;
-    /* Firefox */
-    column-count: 3;
-    -webkit-column-gap: 16px;
-    /* Chrome, Safari, Opera */
-    -moz-column-gap: 16px;
-    /* Firefox */
-    column-gap: 16px;
-}
-
-#work .lrs-projects .lrs-project {
-    position: relative;
-    cursor: pointer;
-    padding: 8px 0;
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;
-}
-
-#work .lrs-projects .lrs-project .lrs-project-image {
-    position: relative;
-}
-
-#work .lrs-projects .lrs-project .lrs-project-image * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all 0.45s ease;
-    transition: all 0.45s ease;
-}
-
-#work .lrs-projects .lrs-project .lrs-project-content {
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.72);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    color: #41b548;
-    padding: 15px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-#work .lrs-projects .lrs-project .lrs-project-content .lrs-project-title {
-    margin-top: -50px;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-
-#work .lrs-projects .lrs-project .lrs-project-content .lrs-project-client {
-    margin-top: 100px;
-}
-
-#work .lrs-projects .lrs-project:hover .lrs-project-content {
-    opacity: 1;
-}
-
-#work .lrs-projects .lrs-project:hover .lrs-project-content .lrs-project-client,
-#work .lrs-projects .lrs-project:hover .lrs-project-content .lrs-project-title {
-    margin-top: 0;
-}
-
-/*
-* ----------------------------------------------------------------------------------------
-* 09.TESTIMONIAL CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-
-.single-testimonial h2 {
-    font-size: 12px;
-    text-transform: uppercase;
-    -webkit-transition: .3s;
-    transition: .3s;
-    color: #41b548;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-.single-testimonial h3 {
-    font-size: 12px;
-    text-transform: capitalize;
-    font-weight: 300;
-    margin-top: 0;
-    color: #41b548;
-}
-
-.single-testimonial p {
-    line-height: 25px;
-    color: #ffffff;
-    font-size: 16px;
-}
-
-.owl-theme .owl-controls .owl-page span {
-    display: block;
-    width: 5px;
-    height: 5px;
-    margin: 5px 7px;
-    border-radius: 20px;
-    background: #ffffff;
-}
-
-.user-block {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 20px auto;
-}
-
-.client-img {
-    height: 40px;
-    width: auto;
-    margin-bottom: 10px;
-}
-
-/*
-* ----------------------------------------------------------------------------------------
-* 10.BLOG CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-
-.blog-area {
-    background: #f7f7f7;
-}
-
-.blog-content h2 {
-    font-size: 20px;
-    padding-bottom: 15px
-}
-
-.blog-content .meta-box li {
-    color: #333333;
-    display: inline;
-    font-size: 13px;
-    font-weight: bold;
-    margin-left: 0;
-    margin-right: 0;
-    text-transform: uppercase;
-}
-
-.meta-box li::after {
-    content: "|";
-    margin: 0 10px;
-}
-
-.meta-box li:last-child:after {
-    content: "";
-}
-
-.meta-box span {
-    color: #41b548;
-}
-
-.home_2 .meta-box span {
-    color: #26394e;
-}
-
-.blog-content {
-    background-color: #faf9f9;
-    padding: 19px 30px;
-}
-
-.blog-content p {
-    padding-bottom: 30px;
-    padding-top: 15px;
-}
-
-.colblog {
-    padding: 0;
-}
-
-
-
-.blog-img {
-    position: relative;
+@media (max-width: 768px) {
+    .capacitacoes {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
@@ -768,6 +523,26 @@ fieldset {
 * 11.CONTACT CSS STYLE
 * ----------------------------------------------------------------------------------------
 */
+.contato {
+    color: #fff;
+    background: url(../images/contact-bg.jpg) no-repeat center top;
+    background-color: #4b4e66;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.overlay {
+    padding: 80px 0 40px 0;
+    background: -moz-linear-gradient(left, rgba(41, 39, 39, 0.952) 0%, rgba(71, 71, 71, 0.356) 100%);
+    background: -webkit-linear-gradient(left, rgba(41, 39, 39, 0.952) 0%, rgba(71, 71, 71, 0.356) 100%);
+    background: linear-gradient(to right, rgba(41, 39, 39, 0.952) 0%, rgba(71, 71, 71, 0.356) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d96b4da8', endColorstr='#d94977c2', GradientType=1);
+
+}
 
 .form-control {
     border: 0px;
@@ -775,8 +550,8 @@ fieldset {
     padding: 5px 10px;
     font-size: 16px;
     line-height: 1.42857143;
-    color: #fff;
-    background-color: transparent;
+    color: rgb(0, 0, 0);
+    background-color: rgba(141, 141, 141, 0.5);
     background-image: none;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
     box-shadow: none !important;
@@ -815,9 +590,10 @@ fieldset {
 * ----------------------------------------------------------------------------------------
 */
 
-.footer-area {
-    padding: 80px 0px;
-}
+/* .footer-area {
+    padding: 10px 0px;
+
+} */
 
 .social-links ul {
     padding: 0;
@@ -949,6 +725,7 @@ fieldset {
 
     .about-image img {
         margin-top: 30px;
+
     }
 
     .single-testimonial p {
@@ -1006,6 +783,10 @@ fieldset {
 /* Mobile Layout: 320px. */
 
 @media only screen and (max-width: 767px) {
+    .list-cursos {
+        text-align: left;
+    }
+
     .site-header .navbar-collapse {
         opacity: 1;
         visibility: visible;
@@ -1171,6 +952,7 @@ fieldset {
 
     .about-img img {
         float: none;
+        margin: 5%;
     }
 
     .logo {
