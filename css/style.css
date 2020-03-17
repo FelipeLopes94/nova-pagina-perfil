@@ -510,6 +510,28 @@ fieldset {
     margin: auto;
 }
 
+.btn-projetos {
+    margin-top: 2%;
+    padding: 1%;
+    width: 18%;
+    font-size: 18px;
+    font-weight: 8000;
+}
+
+.card-projeto {
+    width: 100%;
+}
+
+.img-projeto:hover {
+    box-shadow:
+        1px 1px #000000,
+        2px 2px #000000,
+        3px 3px #000000;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+
+}
+
 @media (max-width: 768px) {
     .capacitacoes {
         width: 100%;
